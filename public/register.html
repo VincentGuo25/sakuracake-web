@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sakura Cake Shop - Vincent</title>
+	
+	<link rel="icon" href="image/icon.png"> <!-- Icon -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">	<!-- CSS link -->
+	<script type="text/javascript" src="js/script.js"></script>	<!-- JS link -->
+</head>
+<body>
+
+	<div class="wrapper">	<!-- wrapper -->
+
+		<div id="header"></div>	<!-- header -->
+
+		<div id="navigation">	<!-- nav -->
+		 	<table width="100%" height="40px">
+				<tr>
+					<td align="center"><a href="index.html">Home</a></td>	<!-- Menu Home -->
+					<td align="center"><a href="cake.html">Products</a></td>	<!-- Menu Cake -->
+					<td align="center"><a href="about.html">About Us</a></td>	<!-- Menu About Us -->
+					<td align="center"><a href="login.html">Login</a></td>	<!-- Menu Login -->
+					<td align="center"><b href="register.html">Sign Up</b></td>	<!-- Menu Register -->
+				</tr>
+			</table>	
+		</div>
+
+		<div id="content"> <!-- content register -->
+			
+			<form action="index.html" id="form_login">	<!-- Form -->
+			<center>
+				<table>
+					<br><h1>CREATE AN ACCOUNT</h1><br>
+
+					<tr>
+						<td><input type="text" id="txt_email" placeholder="Email"></td>	<!-- Email -->
+					</tr>	
+
+					<tr>
+						<td><input type="password" id="txt_pass" placeholder="Password"></td> <!-- Password -->
+					</tr>
+
+					<tr>
+						<td><input type="password" id="txt_confPassword" placeholder="Confirm Password"></td> <!-- Confirm -->
+					</tr>
+
+					<tr>
+						<td><input type="text" id="txt_name" placeholder="Name"></td> <!-- Username -->
+					</tr>
+
+					<tr>
+						<td>
+							<input type="radio" id="radio_male" name="gender" value="male">	<!-- Male -->
+							<label for = "radio_male">Male</label>
+							<input type="radio" id="radio_female" name="gender" value="female"> <!-- Female -->
+							<label for = "radio_female">Female</label>
+						</td>
+					</tr>
+
+					<tr>
+						<td><input type="number" id="age" placeholder="Age"></td> <!-- Age -->
+					</tr>
+
+ 					<tr>
+						<td><textarea id="address" placeholder="Address"></textarea></td> <!-- Address -->
+					</tr>
+
+					<tr>
+						<td><input type="text" id="number" placeholder="Phone Number"></td> <!-- Number -->
+					</tr>
+	
+				</table>
+
+				<p class="error"><a id="error_text"></a></p>	<!-- Error Text -->
+
+				<input id = "button_login" type="submit" value="SIGN UP"> <!-- Register Button -->
+				<button><a href="index.html">CANCEL</a></button> <!-- Cancel Button -->
+			</center>
+			</form>
+
+			<br>
+			<p>Already have an Account? <a href = "login.html"> Login Here</a></p>
+			<br>
+			
+		</div>
+
+		<div id="footer"> <!-- Footer -->
+			&copy Sakura Cake Shop 2018
+		</div>
+	</div>
+
+</body>
+</html>
+

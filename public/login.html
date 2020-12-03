@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sakura Cake Shop - Vincent</title>
+	
+	<link rel="icon" href="image/icon.png"> <!-- Icon -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">	<!-- CSS link -->
+	<script type="text/javascript" src="js/script.js"></script>	<!-- JS link -->
+</head>
+<body>
+
+	<div class="wrapper">	<!-- wrapper -->
+
+		<div id="header"></div>	<!-- header -->
+
+		<div id="navigation">	<!-- nav -->
+		 	<table width="100%" height="40px">
+				<tr>
+					<td align="center"><a href="index.html">Home</a></td>	<!-- Menu Home -->
+					<td align="center"><a href="cake.html">Products</a></td>	<!-- Menu Cake -->
+					<td align="center"><a href="about.html">About Us</a></td>	<!-- Menu About Us -->
+					<td align="center"><b href="login.html">Login</b></td>	<!-- Menu Login -->
+					<td align="center"><a href="register.html">Sign Up</a></td>	<!-- Menu Register -->
+				</tr>
+			</table>	
+		</div>
+
+		<div id="content"> <!-- content login -->
+			
+			<form action="index.html" id="form_login"> <!-- Form -->
+			<center>
+				<table>
+					<br><h1>LOGIN</h1><br>
+
+					<tr>
+						<td><input type="text" id="txt_email" placeholder="Email"></td>	<!-- Email -->
+					</tr>	
+
+					<tr>
+						<td><input type="password" id="txt_pass" placeholder="Password"></td> <!-- Password -->
+					</tr>
+				</table>
+
+				<p class="error"><a id="error_text"></a></p> <!-- Error Text -->
+
+				<input id = "button_login" type="submit" value="LOGIN"> <!-- Login Button -->
+				<button><a href="index.html">CANCEL</a></button> <!-- Cancel Button -->
+			</center>
+			</form>
+
+			<br>
+			<p>Don't have an Account? <a href = "register.html"> Sign Up Here</a></p>
+			<br>
+
+		</div>
+		
+		<div id="footer"> <!-- Footer -->
+			&copy Sakura Cake Shop 2018
+		</div>
+	</div>
+
+</body>
+</html>
+

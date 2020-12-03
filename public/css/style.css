@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body{
+	background-image: url('../Image/Background.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	height: 100%; /* Make Footer Stick Bottom */
+}
+
+.wrappercake{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header{
+	background-image: url('../Image/Header.png');
+	width: 100%;
+	height: 200px;
+	background-size: 100% 100%;
+}
+
+#navigation{
+	background-color: pink;
+    position: sticky; /*sticky position for scrolling*/
+    top: 0;
+}
+
+#navigation a{
+	display: block;
+	padding: 8px;
+	background-color: pink;
+	font-family: Calibri;
+	font-size: 20px;
+	color: purple;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#navigation a:hover{
+	display: block;
+	padding: 8px;
+	background-color: white;
+}
+
+#navigation b{	/*active nav bar*/
+    display: block;
+	padding: 8px;
+	background-color: lightblue;
+	font-family: Calibri;
+	font-size: 20px;
+	color: purple;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#navigation td{
+	width: 20%;
+}
+
+#content{
+	background-image: url('../Image/content.jpg');
+	background-size: 100% 100%;
+	height: 100%;
+}
+
+#content h1{
+	color: purple;
+	font-family: calibri;
+	text-align: center;
+}
+
+#content h3{
+	text-align: center;
+	color: black;
+	font-family: calibri;
+
+}
+
+#content img{
+	width: 75%;
+	display: block;
+	margin: auto;
+	max-width: 500px;
+}
+
+.cake_row {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	/* align-items: center; */
+	/* justify-content: center; */
+}
+
+#content p{
+	text-align: center;
+	font-family: calibri;
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+}
+
+#content ul{
+	margin-left: 25%;
+	font-family: calibri;
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+}
+
+#footer{
+	background-color: #70747A;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+button a{
+	text-decoration: none;
+	color: black;
+}
+
+textarea{
+	width: 92%;
+	font-size: 12pt;
+	padding: .5rem;
+}
+
+form > input{
+	width: 100%;
+}
+
+input {
+	padding: .5rem;
+	font-size: 12pt;
+	outline: none;
+}
+
+label {
+	font-size: 15pt;
+	font-family: calibri;
+}
+
+input[type="submit"], button {
+	width: 10%;
+	cursor: pointer;
+	padding: 1rem;
+	border: 0;
+	background-color: #ff4466;
+	color: #ffffff;
+	outline: none;
+	margin-top: 1rem;
+}
+
+input[type="submit"]:hover,
+button:hover {
+	background-color: #dd1133;
+}
+
+input[type="submit"]:active,
+button:active {
+	background-color: #aa0022;
+}
+
+button a{
+	color: #ffffff;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+input {
+	font-weight: bold;
+}
+
+textarea {
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 15pt;
+}
+
+label {
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 15pt;
+}
+
+.error {
+	margin-top: 1rem;
+}
+
+.error a {
+	color: red;
+}
+
+#form_login input:focus{
+	background-color: #ccc;
+	border: 2px solid black;
+}
+
+#invalid{
+	background-color: #f2a49a;
+	border: 2px solid red;
+}
