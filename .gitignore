@@ -7,6 +7,7 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 firebase.json*
+External Documentation.docx
 
 # Firebase cache
 .firebase/
